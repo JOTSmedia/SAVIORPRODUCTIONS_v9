@@ -1,0 +1,11 @@
+Cormorant Garamond: SIL Open Font License 1.1; see CormorantGaramond-OFL.txt.
+Copyright 2015 the Cormorant Project Authors.
+Upstream: https://github.com/CatharsisFonts/Cormorant
+License text retained from local original Cormorant distribution.
+
+Manrope: SIL Open Font License 1.1; see Manrope-OFL.txt.
+License source: https://github.com/google/fonts/blob/main/ofl/manrope/OFL.txt
+Retrieved 2026-10-27.
+
+Three.js and included addons: MIT License.
+See ../../foto-beth/vendor/three-LICENSE.txt (retained with original source).
