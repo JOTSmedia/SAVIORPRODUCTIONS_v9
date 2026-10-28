@@ -1,0 +1,66 @@
+/* Savior Productions — a photographic monograph. */
+.site-header{height:92px}
+.editorial-hero{padding-top:8px;padding-bottom:64px}
+.editorial-hero h1{display:flex;flex-direction:column;align-items:flex-start;font-weight:500;line-height:.74;letter-spacing:-.045em;white-space:normal;margin:0 0 28px;text-align:left}
+.editorial-hero .hero-name{display:block;font-size:clamp(110px,21.2vw,350px)}
+.editorial-hero .hero-discipline{align-self:flex-end;font-size:clamp(34px,5.1vw,84px);letter-spacing:-.025em;line-height:.85;margin-top:-.03em}
+.hero-cover{display:grid;grid-template-columns:minmax(0,3.2fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:end}
+.hero-cover figure{min-width:0}
+.hero-cover .image-link{display:block;width:100%}
+.cover-main .image-link{height:clamp(260px,35vw,480px)}
+.cover-main img{width:100%;height:100%;object-fit:cover;object-position:28% 36%}
+.cover-detail .image-link{aspect-ratio:.92}
+.cover-detail img{width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-cover figcaption{font-size:12px;line-height:1.5;margin-top:13px;color:#414141}
+.editorial-hero .hero-intro{margin-top:30px;gap:24px}
+.editorial-hero .hero-intro p{font-size:15px;text-align:left;text-align-last:left;max-width:none}
+.founder{grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-areas:"heading heading" "portrait biography" "caption links";column-gap:6vw;row-gap:20px;padding-top:45px;padding-bottom:80px}
+.founder>h2{grid-area:heading;font-size:clamp(64px,10.8vw,170px);line-height:.83;letter-spacing:-.04em;font-weight:500;margin-bottom:26px}
+.founder-role{margin-top:0;font-size:13px}
+.founder-copy .statement{font-size:clamp(25px,2.6vw,38px);line-height:1.1;margin:24px 0}
+.founder-copy>p:not(.statement):not(.founder-role){max-width:none;font-size:14px;line-height:1.85}
+.founder-links{gap:22px}
+.founder-links a{font-size:12px}
+.showcase-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.3fr);align-items:center;gap:5vw}
+.showcase-copy h2{font-size:clamp(46px,5.7vw,88px);line-height:.91;letter-spacing:-.035em;font-weight:500}
+.showcase-copy p{margin-top:26px;font-size:13px}
+.showcase-copy .text-link{margin-top:18px}
+.showcase-image .image-link{display:block;width:100%;aspect-ratio:1.48}
+.showcase-image img{width:100%;height:100%;object-fit:cover}
+.showcase-image figcaption{font-size:12px;line-height:1.5;margin-top:16px;color:#d0d0d0}
+.site-footer .footer-content{grid-template-columns:minmax(0,3fr) minmax(0,1fr) minmax(0,1fr)}
+.site-footer .footer-brand{font-size:clamp(58px,8vw,138px);line-height:.82;letter-spacing:-.035em;font-weight:500}
+#intro-flash{position:fixed;inset:0;z-index:10;background:#fff;opacity:0;pointer-events:none}
+@media(max-width:1000px){
+ .founder{grid-template-columns:1fr;grid-template-areas:"heading" "portrait" "caption" "biography" "links";row-gap:16px}
+ .founder>h2{margin-bottom:14px}
+ .founder-portrait{width:100%}
+ .founder-portrait img{max-height:720px;object-position:center 35%}
+ .founder-copy{margin-top:16px}
+ .founder-copy>p:not(.statement):not(.founder-role){font-size:15px}
+}
+@media(max-width:700px){
+ .site-header{height:82px}
+ .editorial-hero{padding-top:6px;padding-bottom:40px}
+ .editorial-hero .hero-name{font-size:clamp(88px,23.4vw,160px)}
+ .editorial-hero .hero-discipline{font-size:clamp(29px,7.4vw,45px);margin-top:10px}
+ .editorial-hero h1{margin-bottom:24px}
+ .hero-cover{grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:14px}
+ .cover-main .image-link{height:260px}
+ .cover-main img{object-position:27% center}
+ .cover-detail .image-link{aspect-ratio:.78}
+ .hero-cover figcaption{font-size:10px;margin-top:10px}
+ .editorial-hero .hero-intro{margin-top:24px}
+ .editorial-hero .hero-intro p{max-width:30ch;font-size:15px}
+ .founder{padding-top:32px;padding-bottom:54px}
+ .founder>h2{font-size:clamp(46px,12.7vw,82px);line-height:.94;letter-spacing:-.035em}
+ .founder-portrait img{max-height:none}
+ .founder-copy .statement{font-size:25px}
+ .showcase-layout{grid-template-columns:1fr;gap:30px}
+ .showcase-copy h2{font-size:clamp(43px,11.5vw,70px);line-height:.96}
+ .showcase-copy p{margin-top:18px}
+ .showcase-copy .text-link{margin-top:12px}
+ .showcase-image .image-link{aspect-ratio:1.1}
+ .site-footer .footer-content{grid-template-columns:1fr 1fr}
+ .site-footer .footer-brand{grid-column:1/-1;font-size:clamp(62px,16vw,96px);margin-bottom:26px}
+}
