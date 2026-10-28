@@ -1,7 +1,0 @@
-FOTO BETH integration for Savior Productions V9.
-Recovered published Beth Elise Photography Site version 2; source commit 5fd3f41253bb734ac809a0639fff9aa2daf886fa.
-Original Site and source history remain unchanged.
-Original procedural EOS camera, WebGL + CSS renderer, source reference photograph, live preview and JPEG perspective pipeline retained.
-Company website navigation removed; return links point only to the new local Savior Productions site.
-Photos stay in browser memory, are not uploaded, and must be downloaded before leaving.
-Camera permission requires HTTPS or localhost. Browser API permission is only requested after Enable camera.
